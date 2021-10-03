@@ -153,6 +153,7 @@ touch ~/.bash_vars.sh
 chmod 0777 ~/.bash_vars.sh
 
 echo "source ~/.bash_vars.sh" >> ~/.bashrc
+echo "source ~/.bash_vars.sh" >> ~/.bash_profile
 
 echo "#!/bin/bash" > ~/.bash_vars.sh
 echo "~/.bash_settings" >> ~/.bash_vars.sh
